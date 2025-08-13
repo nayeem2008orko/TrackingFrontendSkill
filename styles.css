@@ -1,0 +1,38 @@
+body{
+    background-image: url("https://media1.tenor.com/m/WlJjnDxaNZgAAAAC/spiderman-meme-spider-man-3.gif");
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+    height:100vh;
+}
+.login{
+    width: 400px;
+    height: 500px;
+    background-color: aliceblue;
+    border: solid;
+    margin: auto;
+    margin-top: 100px;
+}
+img{
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+h2{
+    margin-bottom: 30px;
+}
+.username{
+    height: 20px;
+    width: 250px;
+}
+.password{
+    height: 20px;
+    width: 250px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+button{
+    width: 100px;
+    height: 35px;
+    margin-bottom: 20px;
+}
