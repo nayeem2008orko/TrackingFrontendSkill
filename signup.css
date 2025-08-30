@@ -1,0 +1,59 @@
+body{
+
+    background-color: aliceblue;
+}
+.banner {
+
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%; 
+    height: 100px;
+    overflow: hidden;
+
+}
+
+.banner img {
+
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+
+}
+
+.main{
+
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+}
+.signupbox{
+    margin-top: 60px;
+    padding: 35px;
+    padding-bottom: 45px;
+    text-align: center;
+    background: linear-gradient(to right, rgb(231, 225, 136),rgb(195, 237, 121));
+    box-shadow: 0 2px 12px;
+    border-radius: 10%;
+}
+.signupbox input{
+    margin-bottom: 10px;
+    width: 200px;
+    height: 30px;
+    box-shadow: 0 0.5px 5px;
+}
+.signupbox button{
+    margin-top: 30px;
+    background-color: rgb(208, 120, 228);
+    text-align: center;
+    width: 90px;
+    height: 30px;
+    box-shadow: 0 2px;
+    transition: background 0.3s, transform 0.3s;
+    cursor: pointer;
+}
+.signupbox button:hover {
+        background-color: rgb(0, 135, 169);
+        transform: scale(1.08);
+}
