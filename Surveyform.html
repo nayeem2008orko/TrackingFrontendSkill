@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Survey Form</title>
+  </head>
+  <body>
+    <h1 id="title">Survey form</h1>
+    <p id="description">Fill out the form please.</p>
+    <form method="post" action="https://hotel-feedback.freecodecamp.org" id="survey-form" >
+        <fieldset>
+            <legend>Personal information</legend>
+            <label for="name" id="name-label">Name</label>
+            <input type="text" id="name" placeholder="Enter your full name" required>
+            <label for="email" id="email-label">Email</label>
+            <input type="email" id="email" placeholder="Enter your Email" required>
+            <label for="age" id="number-label">Age</label>
+            <input id="age" type="number" min="18" max="30" placeholder="Enter your age">
+        </fieldset>
+        <fieldset>
+            <legend>How long will you work</legend>
+            <select id="dropdown">
+                <option value="Part-time">Part time</option>
+                <option selected value="Full-time">Full time</option>
+            </select>
+        </fieldset>
+        <fieldset>
+            <legend>How did you find our company</legend>
+            ,<label for="social-media">Social media</label>
+            <input type="radio" value="social-media" name="Recog">
+            <label for="friend">Friend</label>
+            <input type="radio" name="Recog" value="friend">
+            <legend>Current occupation</legend>
+            <label for="student">Student</label>
+            <input type="radio" name="occ" value="student">
+            <label for="graduate">Graduate</label>
+            <input type="radio" name="occ" value="graduate">
+        </fieldset>
+        <fieldset>
+           <legend>What programming language are u best at</legend>
+           <label for="java">Java</label>
+            <input type="checkbox" name="java" value="java">
+            <label for="python">Python</label>
+            <input type="checkbox" name="python" value="python">
+        </fieldset>
+        <p>If you have any question type here:</p>
+        <textarea>
+        </textarea>
+        <button id="submit" type="submit">Submit</button>
+    </form>
+  </body>
+</html>
