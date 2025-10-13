@@ -1,0 +1,27 @@
+body{
+    margin: 0;
+    background: linear-gradient(360deg , #92ec76, #fff, paleturquoise);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+}
+
+table{
+    background-color: white;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 12px 25px;
+    text-align: center;
+    box-shadow: 0 2px 12px;
+}
+td,th{
+    border : 1px solid;
+}
+#title{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
