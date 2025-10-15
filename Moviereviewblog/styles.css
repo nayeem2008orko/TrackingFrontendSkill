@@ -1,0 +1,25 @@
+.stars {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+}
+
+.stars input {
+  display: none;
+}
+
+.stars label {
+  font-size: 2rem;
+  color: #ccc;
+  cursor: pointer;
+  transition: color 0.2s;
+}
+
+.stars input:checked ~ label {
+  color: gold;
+}
+
+.stars label:hover,
+.stars label:hover ~ label {
+  color: gold;
+}
