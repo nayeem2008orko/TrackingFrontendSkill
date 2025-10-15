@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width , initial-scale=1.0">
+    <title>Checkout Page</title>
+</head>
+<body>
+    <h1>Checkout</h1>
+    <section>
+        <h2>Your Cart</h2>
+        <img src="https://i.pinimg.com/1200x/84/f8/c7/84f8c7d66368c302dcc79c0973472b1d.jpg" width="200" alt="catnip">
+    </section>
+    <section>
+        <h2>Payment Information</h2>
+        <form method="post">
+            <fieldset>
+                <label for="name"><span aria-hidden="true">*</span>Cardholder Name:</label> <br>
+                <input type="text" placeholder="Enter the Cardholders name" required> <br>
+                <label for="card-number"><span aria-hidden="true">*</span>Card Number</label> <br>
+                <input name="card-number" type="text" placeholder="Enter your card number"required aria-describedby="#">
+                <p id="card-number-help">Please enter number with no dot dashes or spaces</p>
+            </fieldset>
+            <fieldset>
+                <legend>Personal Information</legend>
+                <label for="name">Name:</label> <br>
+                <input
+                name="name"
+                type="text"
+                placeholder="Enter your full name"
+                required
+                > <br>
+                <Label for="Email">Email:</Label> <br>
+                <input
+                name="Email"
+                type="email"
+                placeholder="Enter your email"
+                required
+                >
+            </fieldset>
+        </form>
+    </section>
+</body>
+</html>
